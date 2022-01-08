@@ -1,0 +1,12 @@
+job begin
+Job begin at 2021-11-21 15:07:14.243514
+Data = NeuralTextures_c23
+Epoch = 20
+Weight_decay = 1e-05
+ONLY using CPU
+Using dropout 0.5
+Epoch 1/20
+====================
+/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: CUDA driver initialization failed, you might not have a CUDA gpu. (Triggered internally at  /opt/conda/conda-bld/pytorch_1607370193460/work/c10/cuda/CUDAFunctions.cpp:100.)
+  return torch._C._cuda_getDeviceCount() > 0
+slurmstepd: error: *** JOB 112266 ON wmc-slave-g8 CANCELLED AT 2021-11-21T16:15:08 ***

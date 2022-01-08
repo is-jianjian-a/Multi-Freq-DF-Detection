@@ -1,0 +1,6 @@
+job begin
+Traceback (most recent call last):
+  File "train+test.py", line 10, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+job end

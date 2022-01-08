@@ -1,0 +1,421 @@
+job begin
+Job begin at 2021-11-21 11:55:23.416615
+Data = Deepfakes_c40
+Epoch = 20
+Weight_decay = 1e-05
+Let's use 1 GPUs!
+Using dropout 0.5
+Epoch 1/20
+====================
+iteration    200 train loss: 0.0130 Acc: 0.8125
+iteration    400 train loss: 0.0059 Acc: 0.9062
+iteration    600 train loss: 0.0091 Acc: 0.9062
+iteration    800 train loss: 0.0027 Acc: 1.0000
+iteration   1000 train loss: 0.0019 Acc: 0.9688
+iteration   1200 train loss: 0.0031 Acc: 0.9688
+iteration   1400 train loss: 0.0014 Acc: 1.0000
+iteration   1600 train loss: 0.0027 Acc: 0.9688
+iteration   1800 train loss: 0.0058 Acc: 0.9375
+iteration   2000 train loss: 0.0023 Acc: 1.0000
+iteration   2200 train loss: 0.0039 Acc: 0.9375
+iteration   2400 train loss: 0.0013 Acc: 1.0000
+iteration   2600 train loss: 0.0012 Acc: 1.0000
+iteration   2800 train loss: 0.0021 Acc: 0.9688
+epoch 1 use 0:21:45.485074
+epoch train loss: 0.0056 Acc: 0.9212
+epoch val loss: 0.0050 Acc: 0.9429 
+
+Epoch 2/20
+====================
+iteration   3000 train loss: 0.0002 Acc: 1.0000
+iteration   3200 train loss: 0.0011 Acc: 0.9688
+iteration   3400 train loss: 0.0025 Acc: 0.9375
+iteration   3600 train loss: 0.0007 Acc: 1.0000
+iteration   3800 train loss: 0.0004 Acc: 1.0000
+iteration   4000 train loss: 0.0059 Acc: 0.9062
+iteration   4200 train loss: 0.0005 Acc: 1.0000
+iteration   4400 train loss: 0.0026 Acc: 0.9375
+iteration   4600 train loss: 0.0064 Acc: 0.9375
+iteration   4800 train loss: 0.0026 Acc: 0.9688
+iteration   5000 train loss: 0.0016 Acc: 0.9688
+iteration   5200 train loss: 0.0001 Acc: 1.0000
+iteration   5400 train loss: 0.0067 Acc: 0.9062
+iteration   5600 train loss: 0.0026 Acc: 0.9688
+epoch 2 use 0:25:13.579067
+epoch train loss: 0.0014 Acc: 0.9842
+epoch val loss: 0.0048 Acc: 0.9502 
+
+Epoch 3/20
+====================
+iteration   5800 train loss: 0.0001 Acc: 1.0000
+iteration   6000 train loss: 0.0002 Acc: 1.0000
+iteration   6200 train loss: 0.0028 Acc: 0.9375
+iteration   6400 train loss: 0.0004 Acc: 1.0000
+iteration   6600 train loss: 0.0042 Acc: 0.9688
+iteration   6800 train loss: 0.0001 Acc: 1.0000
+iteration   7000 train loss: 0.0001 Acc: 1.0000
+iteration   7200 train loss: 0.0001 Acc: 1.0000
+iteration   7400 train loss: 0.0016 Acc: 0.9688
+iteration   7600 train loss: 0.0000 Acc: 1.0000
+iteration   7800 train loss: 0.0051 Acc: 0.9688
+iteration   8000 train loss: 0.0015 Acc: 0.9688
+iteration   8200 train loss: 0.0001 Acc: 1.0000
+iteration   8400 train loss: 0.0004 Acc: 1.0000
+iteration   8600 train loss: 0.0003 Acc: 1.0000
+epoch 3 use 0:25:08.218145
+epoch train loss: 0.0009 Acc: 0.9899
+epoch val loss: 0.0040 Acc: 0.9563 
+
+Epoch 4/20
+====================
+iteration   8800 train loss: 0.0031 Acc: 0.9375
+iteration   9000 train loss: 0.0000 Acc: 1.0000
+iteration   9200 train loss: 0.0002 Acc: 1.0000
+iteration   9400 train loss: 0.0006 Acc: 1.0000
+iteration   9600 train loss: 0.0001 Acc: 1.0000
+iteration   9800 train loss: 0.0026 Acc: 0.9688
+iteration  10000 train loss: 0.0001 Acc: 1.0000
+iteration  10200 train loss: 0.0004 Acc: 1.0000
+iteration  10400 train loss: 0.0002 Acc: 1.0000
+iteration  10600 train loss: 0.0003 Acc: 1.0000
+iteration  10800 train loss: 0.0002 Acc: 1.0000
+iteration  11000 train loss: 0.0002 Acc: 1.0000
+iteration  11200 train loss: 0.0011 Acc: 1.0000
+iteration  11400 train loss: 0.0000 Acc: 1.0000
+epoch 4 use 0:24:51.828819
+epoch train loss: 0.0007 Acc: 0.9926
+epoch val loss: 0.0045 Acc: 0.9542 
+
+Epoch 5/20
+====================
+iteration  11600 train loss: 0.0002 Acc: 1.0000
+iteration  11800 train loss: 0.0000 Acc: 1.0000
+iteration  12000 train loss: 0.0001 Acc: 1.0000
+iteration  12200 train loss: 0.0001 Acc: 1.0000
+iteration  12400 train loss: 0.0000 Acc: 1.0000
+iteration  12600 train loss: 0.0001 Acc: 1.0000
+iteration  12800 train loss: 0.0003 Acc: 1.0000
+iteration  13000 train loss: 0.0000 Acc: 1.0000
+iteration  13200 train loss: 0.0061 Acc: 0.9375
+iteration  13400 train loss: 0.0000 Acc: 1.0000
+iteration  13600 train loss: 0.0004 Acc: 1.0000
+iteration  13800 train loss: 0.0000 Acc: 1.0000
+iteration  14000 train loss: 0.0001 Acc: 1.0000
+iteration  14200 train loss: 0.0017 Acc: 0.9688
+epoch 5 use 0:24:49.821314
+epoch train loss: 0.0006 Acc: 0.9939
+epoch val loss: 0.0060 Acc: 0.9445 
+
+Epoch 6/20
+====================
+iteration  14400 train loss: 0.0000 Acc: 1.0000
+iteration  14600 train loss: 0.0006 Acc: 1.0000
+iteration  14800 train loss: 0.0002 Acc: 1.0000
+iteration  15000 train loss: 0.0001 Acc: 1.0000
+iteration  15200 train loss: 0.0000 Acc: 1.0000
+iteration  15400 train loss: 0.0000 Acc: 1.0000
+iteration  15600 train loss: 0.0000 Acc: 1.0000
+iteration  15800 train loss: 0.0000 Acc: 1.0000
+iteration  16000 train loss: 0.0017 Acc: 0.9688
+iteration  16200 train loss: 0.0023 Acc: 0.9688
+iteration  16400 train loss: 0.0000 Acc: 1.0000
+iteration  16600 train loss: 0.0001 Acc: 1.0000
+iteration  16800 train loss: 0.0002 Acc: 1.0000
+iteration  17000 train loss: 0.0000 Acc: 1.0000
+iteration  17200 train loss: 0.0013 Acc: 0.9688
+epoch 6 use 0:24:51.427716
+epoch train loss: 0.0002 Acc: 0.9981
+epoch val loss: 0.0040 Acc: 0.9591 
+
+Epoch 7/20
+====================
+iteration  17400 train loss: 0.0000 Acc: 1.0000
+iteration  17600 train loss: 0.0000 Acc: 1.0000
+iteration  17800 train loss: 0.0000 Acc: 1.0000
+iteration  18000 train loss: 0.0000 Acc: 1.0000
+iteration  18200 train loss: 0.0000 Acc: 1.0000
+iteration  18400 train loss: 0.0001 Acc: 1.0000
+iteration  18600 train loss: 0.0000 Acc: 1.0000
+iteration  18800 train loss: 0.0000 Acc: 1.0000
+iteration  19000 train loss: 0.0002 Acc: 1.0000
+iteration  19200 train loss: 0.0000 Acc: 1.0000
+iteration  19400 train loss: 0.0000 Acc: 1.0000
+iteration  19600 train loss: 0.0000 Acc: 1.0000
+iteration  19800 train loss: 0.0000 Acc: 1.0000
+iteration  20000 train loss: 0.0000 Acc: 1.0000
+epoch 7 use 0:24:34.782717
+epoch train loss: 0.0002 Acc: 0.9979
+epoch val loss: 0.0040 Acc: 0.9627 
+
+Epoch 8/20
+====================
+iteration  20200 train loss: 0.0000 Acc: 1.0000
+iteration  20400 train loss: 0.0000 Acc: 1.0000
+iteration  20600 train loss: 0.0000 Acc: 1.0000
+iteration  20800 train loss: 0.0000 Acc: 1.0000
+iteration  21000 train loss: 0.0000 Acc: 1.0000
+iteration  21200 train loss: 0.0001 Acc: 1.0000
+iteration  21400 train loss: 0.0001 Acc: 1.0000
+iteration  21600 train loss: 0.0002 Acc: 1.0000
+iteration  21800 train loss: 0.0001 Acc: 1.0000
+iteration  22000 train loss: 0.0002 Acc: 1.0000
+iteration  22200 train loss: 0.0000 Acc: 1.0000
+iteration  22400 train loss: 0.0000 Acc: 1.0000
+iteration  22600 train loss: 0.0009 Acc: 0.9688
+iteration  22800 train loss: 0.0000 Acc: 1.0000
+epoch 8 use 0:24:39.106430
+epoch train loss: 0.0002 Acc: 0.9982
+epoch val loss: 0.0049 Acc: 0.9574 
+
+Epoch 9/20
+====================
+iteration  23000 train loss: 0.0000 Acc: 1.0000
+iteration  23200 train loss: 0.0000 Acc: 1.0000
+iteration  23400 train loss: 0.0000 Acc: 1.0000
+iteration  23600 train loss: 0.0012 Acc: 0.9688
+iteration  23800 train loss: 0.0000 Acc: 1.0000
+iteration  24000 train loss: 0.0000 Acc: 1.0000
+iteration  24200 train loss: 0.0002 Acc: 1.0000
+iteration  24400 train loss: 0.0000 Acc: 1.0000
+iteration  24600 train loss: 0.0000 Acc: 1.0000
+iteration  24800 train loss: 0.0000 Acc: 1.0000
+iteration  25000 train loss: 0.0000 Acc: 1.0000
+iteration  25200 train loss: 0.0000 Acc: 1.0000
+iteration  25400 train loss: 0.0000 Acc: 1.0000
+iteration  25600 train loss: 0.0000 Acc: 1.0000
+iteration  25800 train loss: 0.0023 Acc: 0.9688
+epoch 9 use 0:24:41.329926
+epoch train loss: 0.0001 Acc: 0.9986
+epoch val loss: 0.0061 Acc: 0.9503 
+
+Epoch 10/20
+====================
+iteration  26000 train loss: 0.0001 Acc: 1.0000
+iteration  26200 train loss: 0.0000 Acc: 1.0000
+iteration  26400 train loss: 0.0000 Acc: 1.0000
+iteration  26600 train loss: 0.0000 Acc: 1.0000
+iteration  26800 train loss: 0.0000 Acc: 1.0000
+iteration  27000 train loss: 0.0000 Acc: 1.0000
+iteration  27200 train loss: 0.0002 Acc: 1.0000
+iteration  27400 train loss: 0.0000 Acc: 1.0000
+iteration  27600 train loss: 0.0000 Acc: 1.0000
+iteration  27800 train loss: 0.0000 Acc: 1.0000
+iteration  28000 train loss: 0.0000 Acc: 1.0000
+iteration  28200 train loss: 0.0000 Acc: 1.0000
+iteration  28400 train loss: 0.0000 Acc: 1.0000
+iteration  28600 train loss: 0.0000 Acc: 1.0000
+epoch 10 use 0:24:41.489140
+epoch train loss: 0.0002 Acc: 0.9982
+epoch val loss: 0.0034 Acc: 0.9689 
+
+Epoch 11/20
+====================
+iteration  28800 train loss: 0.0000 Acc: 1.0000
+iteration  29000 train loss: 0.0000 Acc: 1.0000
+iteration  29200 train loss: 0.0000 Acc: 1.0000
+iteration  29400 train loss: 0.0000 Acc: 1.0000
+iteration  29600 train loss: 0.0000 Acc: 1.0000
+iteration  29800 train loss: 0.0000 Acc: 1.0000
+iteration  30000 train loss: 0.0000 Acc: 1.0000
+iteration  30200 train loss: 0.0000 Acc: 1.0000
+iteration  30400 train loss: 0.0001 Acc: 1.0000
+iteration  30600 train loss: 0.0000 Acc: 1.0000
+iteration  30800 train loss: 0.0000 Acc: 1.0000
+iteration  31000 train loss: 0.0000 Acc: 1.0000
+iteration  31200 train loss: 0.0000 Acc: 1.0000
+iteration  31400 train loss: 0.0000 Acc: 1.0000
+iteration  31600 train loss: 0.0000 Acc: 1.0000
+epoch 11 use 0:24:43.778589
+epoch train loss: 0.0001 Acc: 0.9994
+epoch val loss: 0.0038 Acc: 0.9670 
+
+Epoch 12/20
+====================
+iteration  31800 train loss: 0.0000 Acc: 1.0000
+iteration  32000 train loss: 0.0000 Acc: 1.0000
+iteration  32200 train loss: 0.0000 Acc: 1.0000
+iteration  32400 train loss: 0.0000 Acc: 1.0000
+iteration  32600 train loss: 0.0000 Acc: 1.0000
+iteration  32800 train loss: 0.0000 Acc: 1.0000
+iteration  33000 train loss: 0.0007 Acc: 1.0000
+iteration  33200 train loss: 0.0000 Acc: 1.0000
+iteration  33400 train loss: 0.0000 Acc: 1.0000
+iteration  33600 train loss: 0.0000 Acc: 1.0000
+iteration  33800 train loss: 0.0000 Acc: 1.0000
+iteration  34000 train loss: 0.0002 Acc: 1.0000
+iteration  34200 train loss: 0.0000 Acc: 1.0000
+iteration  34400 train loss: 0.0000 Acc: 1.0000
+epoch 12 use 0:24:39.080879
+epoch train loss: 0.0000 Acc: 0.9995
+epoch val loss: 0.0049 Acc: 0.9616 
+
+Epoch 13/20
+====================
+iteration  34600 train loss: 0.0000 Acc: 1.0000
+iteration  34800 train loss: 0.0000 Acc: 1.0000
+iteration  35000 train loss: 0.0000 Acc: 1.0000
+iteration  35200 train loss: 0.0000 Acc: 1.0000
+iteration  35400 train loss: 0.0000 Acc: 1.0000
+iteration  35600 train loss: 0.0000 Acc: 1.0000
+iteration  35800 train loss: 0.0000 Acc: 1.0000
+iteration  36000 train loss: 0.0000 Acc: 1.0000
+iteration  36200 train loss: 0.0000 Acc: 1.0000
+iteration  36400 train loss: 0.0000 Acc: 1.0000
+iteration  36600 train loss: 0.0000 Acc: 1.0000
+iteration  36800 train loss: 0.0000 Acc: 1.0000
+iteration  37000 train loss: 0.0000 Acc: 1.0000
+iteration  37200 train loss: 0.0000 Acc: 1.0000
+epoch 13 use 0:24:29.474202
+epoch train loss: 0.0001 Acc: 0.9994
+epoch val loss: 0.0037 Acc: 0.9660 
+
+Epoch 14/20
+====================
+iteration  37400 train loss: 0.0000 Acc: 1.0000
+iteration  37600 train loss: 0.0000 Acc: 1.0000
+iteration  37800 train loss: 0.0000 Acc: 1.0000
+iteration  38000 train loss: 0.0000 Acc: 1.0000
+iteration  38200 train loss: 0.0000 Acc: 1.0000
+iteration  38400 train loss: 0.0000 Acc: 1.0000
+iteration  38600 train loss: 0.0000 Acc: 1.0000
+iteration  38800 train loss: 0.0001 Acc: 1.0000
+iteration  39000 train loss: 0.0011 Acc: 0.9688
+iteration  39200 train loss: 0.0000 Acc: 1.0000
+iteration  39400 train loss: 0.0000 Acc: 1.0000
+iteration  39600 train loss: 0.0000 Acc: 1.0000
+iteration  39800 train loss: 0.0000 Acc: 1.0000
+iteration  40000 train loss: 0.0000 Acc: 1.0000
+iteration  40200 train loss: 0.0000 Acc: 1.0000
+epoch 14 use 0:24:24.814475
+epoch train loss: 0.0000 Acc: 0.9995
+epoch val loss: 0.0041 Acc: 0.9676 
+
+Epoch 15/20
+====================
+iteration  40400 train loss: 0.0000 Acc: 1.0000
+iteration  40600 train loss: 0.0000 Acc: 1.0000
+iteration  40800 train loss: 0.0000 Acc: 1.0000
+iteration  41000 train loss: 0.0000 Acc: 1.0000
+iteration  41200 train loss: 0.0000 Acc: 1.0000
+iteration  41400 train loss: 0.0000 Acc: 1.0000
+iteration  41600 train loss: 0.0000 Acc: 1.0000
+iteration  41800 train loss: 0.0000 Acc: 1.0000
+iteration  42000 train loss: 0.0000 Acc: 1.0000
+iteration  42200 train loss: 0.0000 Acc: 1.0000
+iteration  42400 train loss: 0.0000 Acc: 1.0000
+iteration  42600 train loss: 0.0000 Acc: 1.0000
+iteration  42800 train loss: 0.0000 Acc: 1.0000
+iteration  43000 train loss: 0.0029 Acc: 0.9688
+epoch 15 use 0:24:33.467975
+epoch train loss: 0.0001 Acc: 0.9994
+epoch val loss: 0.0031 Acc: 0.9704 
+
+Epoch 16/20
+====================
+iteration  43200 train loss: 0.0000 Acc: 1.0000
+iteration  43400 train loss: 0.0000 Acc: 1.0000
+iteration  43600 train loss: 0.0000 Acc: 1.0000
+iteration  43800 train loss: 0.0000 Acc: 1.0000
+iteration  44000 train loss: 0.0009 Acc: 0.9688
+iteration  44200 train loss: 0.0000 Acc: 1.0000
+iteration  44400 train loss: 0.0000 Acc: 1.0000
+iteration  44600 train loss: 0.0000 Acc: 1.0000
+iteration  44800 train loss: 0.0000 Acc: 1.0000
+iteration  45000 train loss: 0.0000 Acc: 1.0000
+iteration  45200 train loss: 0.0000 Acc: 1.0000
+iteration  45400 train loss: 0.0000 Acc: 1.0000
+iteration  45600 train loss: 0.0000 Acc: 1.0000
+iteration  45800 train loss: 0.0000 Acc: 1.0000
+epoch 16 use 0:24:39.779697
+epoch train loss: 0.0000 Acc: 0.9998
+epoch val loss: 0.0040 Acc: 0.9711 
+
+Epoch 17/20
+====================
+iteration  46000 train loss: 0.0000 Acc: 1.0000
+iteration  46200 train loss: 0.0000 Acc: 1.0000
+iteration  46400 train loss: 0.0000 Acc: 1.0000
+iteration  46600 train loss: 0.0000 Acc: 1.0000
+iteration  46800 train loss: 0.0000 Acc: 1.0000
+iteration  47000 train loss: 0.0000 Acc: 1.0000
+iteration  47200 train loss: 0.0000 Acc: 1.0000
+iteration  47400 train loss: 0.0000 Acc: 1.0000
+iteration  47600 train loss: 0.0000 Acc: 1.0000
+iteration  47800 train loss: 0.0000 Acc: 1.0000
+iteration  48000 train loss: 0.0000 Acc: 1.0000
+iteration  48200 train loss: 0.0000 Acc: 1.0000
+iteration  48400 train loss: 0.0000 Acc: 1.0000
+iteration  48600 train loss: 0.0000 Acc: 1.0000
+iteration  48800 train loss: 0.0000 Acc: 1.0000
+epoch 17 use 0:24:45.238974
+epoch train loss: 0.0000 Acc: 0.9999
+epoch val loss: 0.0034 Acc: 0.9730 
+
+Epoch 18/20
+====================
+iteration  49000 train loss: 0.0000 Acc: 1.0000
+iteration  49200 train loss: 0.0000 Acc: 1.0000
+iteration  49400 train loss: 0.0003 Acc: 1.0000
+iteration  49600 train loss: 0.0000 Acc: 1.0000
+iteration  49800 train loss: 0.0000 Acc: 1.0000
+iteration  50000 train loss: 0.0000 Acc: 1.0000
+iteration  50200 train loss: 0.0000 Acc: 1.0000
+iteration  50400 train loss: 0.0000 Acc: 1.0000
+iteration  50600 train loss: 0.0000 Acc: 1.0000
+iteration  50800 train loss: 0.0000 Acc: 1.0000
+iteration  51000 train loss: 0.0000 Acc: 1.0000
+iteration  51200 train loss: 0.0000 Acc: 1.0000
+iteration  51400 train loss: 0.0000 Acc: 1.0000
+iteration  51600 train loss: 0.0000 Acc: 1.0000
+epoch 18 use 0:24:37.911619
+epoch train loss: 0.0000 Acc: 0.9999
+epoch val loss: 0.0040 Acc: 0.9704 
+
+Epoch 19/20
+====================
+iteration  51800 train loss: 0.0000 Acc: 1.0000
+iteration  52000 train loss: 0.0000 Acc: 1.0000
+iteration  52200 train loss: 0.0000 Acc: 1.0000
+iteration  52400 train loss: 0.0000 Acc: 1.0000
+iteration  52600 train loss: 0.0000 Acc: 1.0000
+iteration  52800 train loss: 0.0000 Acc: 1.0000
+iteration  53000 train loss: 0.0000 Acc: 1.0000
+iteration  53200 train loss: 0.0000 Acc: 1.0000
+iteration  53400 train loss: 0.0000 Acc: 1.0000
+iteration  53600 train loss: 0.0000 Acc: 1.0000
+iteration  53800 train loss: 0.0000 Acc: 1.0000
+iteration  54000 train loss: 0.0000 Acc: 1.0000
+iteration  54200 train loss: 0.0000 Acc: 1.0000
+iteration  54400 train loss: 0.0000 Acc: 1.0000
+epoch 19 use 0:24:32.445391
+epoch train loss: 0.0000 Acc: 0.9999
+epoch val loss: 0.0042 Acc: 0.9679 
+
+Epoch 20/20
+====================
+iteration  54600 train loss: 0.0000 Acc: 1.0000
+iteration  54800 train loss: 0.0000 Acc: 1.0000
+iteration  55000 train loss: 0.0000 Acc: 1.0000
+iteration  55200 train loss: 0.0000 Acc: 1.0000
+iteration  55400 train loss: 0.0000 Acc: 1.0000
+iteration  55600 train loss: 0.0000 Acc: 1.0000
+iteration  55800 train loss: 0.0000 Acc: 1.0000
+iteration  56000 train loss: 0.0000 Acc: 1.0000
+iteration  56200 train loss: 0.0000 Acc: 1.0000
+iteration  56400 train loss: 0.0000 Acc: 1.0000
+iteration  56600 train loss: 0.0000 Acc: 1.0000
+iteration  56800 train loss: 0.0000 Acc: 1.0000
+iteration  57000 train loss: 0.0000 Acc: 1.0000
+iteration  57200 train loss: 0.0000 Acc: 1.0000
+iteration  57400 train loss: 0.0000 Acc: 1.0000
+epoch 20 use 0:24:30.290861
+epoch train loss: 0.0000 Acc: 1.0000
+epoch val loss: 0.0044 Acc: 0.9687 
+
+Best val Acc: 0.9730 
+
+train+test.py:151: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  logits = nn.functional.softmax(outputs)  # 预测结果的概率形式
+Test iteration 400.0000 Acc: 0.9688
+Test Acc: 0.9742 Preds AUC: 0.9742 Prods AUC: 0.9976
+job end

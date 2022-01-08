@@ -1,0 +1,6 @@
+/var/spool/slurmd/job77491/slurm_script: line 10: data: command not found
+Traceback (most recent call last):
+  File "train_CNN.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+/var/spool/slurmd/job77491/slurm_script: line 12: data: command not found

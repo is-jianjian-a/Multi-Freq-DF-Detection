@@ -1,0 +1,30 @@
+job begin
+Using dropout 0.5
+Traceback (most recent call last):
+  File "test_CNN.py", line 50, in <module>
+    main()
+  File "test_CNN.py", line 32, in main
+    for (image, labels) in test_loader:
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+    data = self._next_data()
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 1085, in _next_data
+    return self._process_data(data)
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 1111, in _process_data
+    data.reraise()
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/_utils.py", line 428, in reraise
+    raise self.exc_type(msg)
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/utils/data/_utils/worker.py", line 198, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/public/dengzhijian/Deepfake-Detection-master/dataset/mydataset.py", line 27, in __getitem__
+    img = Image.open(fn).convert('RGB')
+  File "/public/dengzhijian/miniconda3/envs/dfs/lib/python3.6/site-packages/PIL/Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/data-x/g15/ffpp-faces/Deepfakes/c0/images/899_914/0522.png'
+
+job end

@@ -1,0 +1,10 @@
+job begin
+Traceback (most recent call last):
+  File "test_CNN.py", line 50, in <module>
+    main()
+  File "test_CNN.py", line 19, in main
+    test_dataset = MyDataset(txt_path=test_list, transform=xception_default_data_transforms['test'])
+  File "/public/dengzhijian/Deepfake-Detection-master/dataset/mydataset.py", line 14, in __init__
+    fh = open(txt_path, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: './Deepfakes_c0_test'
+job end

@@ -1,0 +1,13 @@
+job begin
+Job begin at 2021-11-21 16:08:58.834682
+Data = NeuralTextures_c23
+Epoch = 20
+Weight_decay = 1e-05
+ONLY using CPU
+Using dropout 0.5
+Epoch 1/20
+====================
+/public/dengzhijian/miniconda3/envs/ffpp/lib/python3.6/site-packages/torch/cuda/__init__.py:80: UserWarning: CUDA initialization: CUDA driver initialization failed, you might not have a CUDA gpu. (Triggered internally at  /opt/conda/conda-bld/pytorch_1634272155627/work/c10/cuda/CUDAFunctions.cpp:112.)
+  return torch._C._cuda_getDeviceCount() > 0
+/public/dengzhijian/miniconda3/envs/ffpp/lib/python3.6/site-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuslurmstepd: error: *** JOB 112276 ON wmc-slave-g8 CANCELLED AT 2021-11-21T16:15:23 ***
