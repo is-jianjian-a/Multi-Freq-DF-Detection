@@ -67,6 +67,7 @@ def main():
     # 模型和相关参数的选择与初始化
     torch.backends.cudnn.benchmark = True
     model = model_selection(modelname='xception', num_out_classes=2, dropout=0.5)
+    '''
     # 打印网络结构
     for (image, labels) in trn_loader:
         x = image
@@ -81,6 +82,7 @@ def main():
         ModelVis.view()
         break
     pdb.set_trace()
+    '''
     if continue_train:
         model.module.load_state_dict(torch.load(model_path))
     model = nn.DataParallel(model)
@@ -188,5 +190,5 @@ if __name__ == '__main__':
     parse.add_argument('--epoches', '-e', type=int, default='20')  # 20个epoches = 2天/GPU
     parse.add_argument('--continue_train', type=bool, default=False)  # 训练中断的恢复
     parse.add_argument('--model_path', '-mp', type=str, default='./Deepfakes_output/c40/3_df_c40.pkl')  # 继续训练的断点模型
-    parse.add_argument('--num_workers', '-nw', type=int, default=2)  # 继续训练的断点模型
+    parse.add_argument('--num_workers', '-nw', type=int, default=8)  # 总线程数
     main()
