@@ -105,3 +105,6 @@ venv.bak/
 
 # model for every epoch
 out_model/*/
+
+# job reports
+job_report/

@@ -1,6 +1,0 @@
-job begin
-Traceback (most recent call last):
-  File "train+test.py", line 12, in <module>
-    from sklearn.metrics import roc_auc_score
-ModuleNotFoundError: No module named 'sklearn'
-job end

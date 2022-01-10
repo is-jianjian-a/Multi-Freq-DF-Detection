@@ -1,5 +1,0 @@
-job begin
-Using dropout 0.5
-Epoch 1/20
-----------
-slurmstepd: error: *** JOB 79216 ON wmc-slave-g10 CANCELLED AT 2021-03-15T09:35:32 ***

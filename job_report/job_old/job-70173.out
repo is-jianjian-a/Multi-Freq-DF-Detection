@@ -1,6 +1,0 @@
-job begin
-Traceback (most recent call last):
-  File "detect_from_video.py", line 17, in <module>
-    import dlib
-ModuleNotFoundError: No module named 'dlib'
-job end
