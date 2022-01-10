@@ -1,0 +1,27 @@
+job begin
+Job begin at 2022-01-10 13:50:26.619133
+Data = NeuralTextures_c40
+Epoch = 20
+Weight_decay = 1e-05
+Let's use 1 GPUs!
+Using dropout 0.5
+Epoch 1/20
+====================
+iteration    200 train loss: 0.0215 Acc: 0.5625
+iteration    400 train loss: 0.0202 Acc: 0.6875
+iteration    600 train loss: 0.0237 Acc: 0.5312
+iteration    800 train loss: 0.0166 Acc: 0.6875
+iteration   1000 train loss: 0.0163 Acc: 0.7812
+iteration   1200 train loss: 0.0215 Acc: 0.5625
+iteration   1400 train loss: 0.0216 Acc: 0.5625
+iteration   1600 train loss: 0.0154 Acc: 0.7812
+iteration   1800 train loss: 0.0141 Acc: 0.7188
+iteration   2000 train loss: 0.0151 Acc: 0.7500
+iteration   2200 train loss: 0.0155 Acc: 0.7188
+iteration   2400 train loss: 0.0166 Acc: 0.7188
+epoch 1 use 0:11:47.210030
+epoch train loss: 0.0181 Acc: 0.6679
+epoch val loss: 0.0175 Acc: 0.7121 
+
+Epoch 2/20
+====================
